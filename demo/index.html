@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Progressive discount</title>
+    <link rel="stylesheet" href="../src/progressive-discount.css" />
+  </head>
+
+  <body>
+    <button class="popup-open btn">Discount <span class="counter">0%</span></button>
+
+    <div class="popup-fade">
+      <div class="popup">
+        <span class="popup-close">X</span>
+        <div>Your discount <span class="discount-size"></span></div>
+
+        <form action="#" method="post">
+          <input type="text" value="" placeholder="Name" />
+          <input type="text" value="" placeholder="Phone" required />
+          <input type="hidden" id="discount-field" value="" />
+          <button type="submit" class="btn">Get a discount</button>
+        </form>
+      </div>
+    </div>
+
+    <script src="../src/progressive-discount.js"></script>
+  </body>
+</html>
