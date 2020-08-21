@@ -1,0 +1,20 @@
+{
+  "name": "progressive-discount-js",
+  "version": "0.0.1",
+  "description": "A simple script that has a positive impact on average time on site and behavioral factors.",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/42proger/progressive-discount-js.git"
+  },
+  "keywords": [
+    "discount"
+  ],
+  "author": "42proger",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/42proger/progressive-discount-js/issues"
+  },
+  "homepage": "https://github.com/42proger/progressive-discount-js#readme"
+}
